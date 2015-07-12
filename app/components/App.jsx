@@ -40,7 +40,8 @@ class App extends React.Component {
       <View title="Flickr Search" styles={{inner: {padding: 20} }}>
         <Input ref="search" placeholder="Enter your search" styles={{
             input: {
-              margin: '0 0 10px 0'
+              margin: '0 0 10px 0',
+              border: '1px solid #ddd'
             }
           }}/>
         <Button onTap={this.search}>Search</Button>
